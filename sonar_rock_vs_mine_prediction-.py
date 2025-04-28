@@ -10,7 +10,7 @@ import pandas as pd
 
 #Data Collection & Processing
 
-sonar_data = pd.read_csv('sonardata.csv.csv', header=None)
+sonar_data = pd.read_csv('/content/sonardata.csv.csv', header=None)
 
 sonar_data.shape
 
