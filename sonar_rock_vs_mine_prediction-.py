@@ -1,5 +1,5 @@
 """
-  https://colab.research.google.com/drive/1hxJfE1yqrBZrtHmuAhpyIeADu_ocnYi9
+  https://colab.research.google.com/drive/1XE3Ym9QzbzlnTZk0xzZQmQUplKcPFgWj#scrollTo=zWhtICSRuB6S
 """
 
 
@@ -10,7 +10,7 @@ import pandas as pd
 
 #Data Collection & Processing
 
-sonar_data = pd.read_csv('/content/sonardata.csv.csv', header=None)
+sonar_data = pd.read_csv('/content/sonar_rock_vs_mine_prediction.csv', header=None)
 
 sonar_data.shape
 
